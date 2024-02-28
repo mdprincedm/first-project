@@ -1,1 +1,130 @@
-# first-project
+header{
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    font-size: 15px;
+    box-sizing: border-box;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header ul {
+   align-items: center;
+   justify-content: center;
+   display: flex; 
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li button{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border:none;
+    border-radius: 3px;
+    outline: none;
+    padding: 4px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sce{
+    
+    width: 100%;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-field{
+    width: 500px;
+    height: 100%;
+    padding: 15px 30px ;
+    border-radius: 50px;
+    border: none;
+    border:1px solid black;
+    
+}
+.iii{
+    position: relative;
+    right: 550px;
+    font-size: 13px;
+}
+.input-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.icon-main{
+    position: relative;
+    right: 70px;
+    display: flex;
+    gap: 10px;  
+}
+
+.btn-main {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 10px 0;
+    
+}
+.btn-main button{
+    padding: 8px 18px;
+    border: none;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text span{
+    font-weight: 300;
+    align-items: center;
+    color: blue;
+    padding-left: 10px;
+
+}
+.img-main{
+    display: flex;
+    justify-content: center;
+}
+.img-main img{
+    width: 250px;
+    height: 100%;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(230, 225, 222);
+}
+section .footer .row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+section .footer .row ul {
+    display: flex;
+}
+section .footer .row ul li {
+    list-style: none;
+}
+section .footer .row ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(31, 30, 30);
+}
+@media (max-width:600px){
+    .img-main img {
+        width: 285px;
+    }
+    .input-field{
+        width: 200px;
+        padding: 15px 52px;
+        left: 10px;
+    }
+    section .footer .row ul{
+        display: block;
+    }
+}
